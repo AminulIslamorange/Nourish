@@ -35,18 +35,18 @@ const Menu = () => {
             </MenuCategory>
             {/* dessert menu Itams */}
 
-            <MenuCategory items={dessert} title={"DESSERTS"} details={" when an unknown printer took a galley of type and scrambled it to make a type specimen book."} img={dessertImg}></MenuCategory>
+            <MenuCategory items={dessert} title={"dessert"} details={" when an unknown printer took a galley of type and scrambled it to make a type specimen book."} img={dessertImg}></MenuCategory>
 
 
-            <MenuCategory items={pizza} title={"PIZZA"} details={" standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} img={pizzaImg}></MenuCategory>
-
-
-
-            <MenuCategory items={salad} title={"SALADS"} details={"when an unknown printer took a galley of type and scrambled it to make a type specimen book."} img={saladImg}></MenuCategory>
+            <MenuCategory items={pizza} title={"pizza"} details={" standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} img={pizzaImg}></MenuCategory>
 
 
 
-            <MenuCategory items={soup} title={"SOUPS"} details={" standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} img={soupImg}></MenuCategory>
+            <MenuCategory items={salad} title={"salad"} details={"when an unknown printer took a galley of type and scrambled it to make a type specimen book."} img={saladImg}></MenuCategory>
+
+
+
+            <MenuCategory items={soup} title={"soups"} details={" standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} img={soupImg}></MenuCategory>
             
         </div>
     );
